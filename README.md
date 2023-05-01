@@ -24,12 +24,12 @@ $ ./slowtest.sh
 (~) > run
 ```
 ## HOW DOES IT WORK
-*
+
 The url parameter defines the url of the attack 
 The TIME parameter defines the time between connections 
 Parameter C defines the total number of connections, the maximum is 65000, keep that in mind
 And to locate the attack the run or go parameter is used
-*
+
 
 ##MAKE SURE YOU HAVE SLOWHTTPTEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE USING LINUX YOU CAN USE:
 ```
