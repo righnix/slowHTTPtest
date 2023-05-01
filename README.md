@@ -11,11 +11,11 @@ $ wget https://github.com/shekyan/slowhttptest/archive/refs/tags/v1.9.0.tar.gz
 
 $ tar -xzvf slowhttptest-x.x.tar.gz
 
-$ cd slowhttptest-x.x
+$ cd slowhttptest-1.9.0/
 
 $ chmod +x *
 
-$ ./configure --prefix=PREFIX
+$ ./configure --prefix=$PREFIX
 
 $ make
 
