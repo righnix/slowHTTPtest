@@ -1,3 +1,11 @@
+#INSTALLATION AND USE OF THE SCRIPT
+```
+git clone 
+cd slowHTTPtest
+chmod +x *
+./
+```
+
 # SlowHTTPTest: What it is and how it works
 
 SlowHTTPTest is an open-source stress testing tool used to detect vulnerabilities in HTTP and HTTPS web servers. It uses denial-of-service (DoS) attack techniques to send slow and prolonged HTTP requests to the target server. The intention is to exhaust the server's resources, which can result in a website crash or slow response.
