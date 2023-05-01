@@ -10,8 +10,27 @@ $ chmod +x *
 
 $ ./slowtest.sh
 ```
+## HOW TO USE 
+```
+# USE "show options" TO SEE AVAILABLE OPTIONS 
+# USE "help" TO VIEW A HELP MENU
+```
 
-MAKE SURE YOU HAVE SLOWHTTPTEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE USING LINUX YOU CAN USE:
+**START ATTACK**
+```
+(~) > set URL http://domain.com
+(~) > set TIME 10
+(~) > set C 65000
+(~) > run
+```
+## HOW DOES IT WORK
+**
+The url parameter defines the url of the attack 
+The TIME parameter defines the time between connections 
+Parameter C defines the total number of connections, the maximum is 65000, keep that in mind
+And to locate the attack the run or go parameter is used
+**
+##MAKE SURE YOU HAVE SLOWHTTPTEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE USING LINUX YOU CAN USE:
 ```
 $ sudo apt-get install slowhttptest
 ```
