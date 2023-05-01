@@ -5,16 +5,29 @@ MAKE SURE YOU HAVE SLOWHTTPEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE U
 $ sudo apt-get install slowhttptest
 ```
 YOU CAN DO A MANUAL INSTALLATION WITH THE FOLLOWING COMMANDS:
+
 ```
-$
-$
-$
-$
+$ wget https://github.com/shekyan/slowhttptest/archive/refs/tags/v1.9.0.tar.gz
+
+$ tar -xzvf slowhttptest-x.x.tar.gz
+
+$ cd slowhttptest-x.x
+
+$ chmod +x *
+
+$ ./configure --prefix=PREFIX
+
+$ make
+
+$ sudo make install
 ```
 ```
 $ git clone https://github.com/righnix/slowHTTPtest.git
+
 $ cd slowHTTPtest
+
 $ chmod +x *
+
 $ ./slowtest.sh
 ```
 
