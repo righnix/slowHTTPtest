@@ -7,6 +7,10 @@ $ sudo apt-get install slowhttptest
 YOU CAN DO A MANUAL INSTALLATION WITH THE FOLLOWING COMMANDS MAKE SURE YOU HAVE AND INSTALL THE NECESSARY MODULES:
 
 ```
+$ sudo apt-get update
+
+$ sudo apt-get install wget tar gcc make
+
 $ wget https://github.com/shekyan/slowhttptest/archive/refs/tags/v1.9.0.tar.gz
 
 $ tar -xzvf slowhttptest-x.x.tar.gz
