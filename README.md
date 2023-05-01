@@ -1,4 +1,16 @@
 ## INSTALLATION AND USE OF THE SCRIPT
+
+MAKE SURE YOU HAVE SLOWHTTPEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE USING LINUX YOU CAN USE:
+```
+$ sudo apt-get install slowhttptest
+```
+YOU CAN DO A MANUAL INSTALLATION WITH THE FOLLOWING COMMANDS:
+```
+$
+$
+$
+$
+```
 ```
 $ git clone https://github.com/righnix/slowHTTPtest.git
 $ cd slowHTTPtest
@@ -6,7 +18,7 @@ $ chmod +x *
 $ ./slowtest.sh
 ```
 
-# SlowHTTPTest: What it is and how it works
+## SlowHTTPTest: What it is and how it works
 
 SlowHTTPTest is an open-source stress testing tool used to detect vulnerabilities in HTTP and HTTPS web servers. It uses denial-of-service (DoS) attack techniques to send slow and prolonged HTTP requests to the target server. The intention is to exhaust the server's resources, which can result in a website crash or slow response.
 
