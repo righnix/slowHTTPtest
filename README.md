@@ -1,5 +1,16 @@
 ## INSTALLATION AND USE OF THE SCRIPT
 
+## GIT INSTALLATION
+```
+$ git clone https://github.com/righnix/slowHTTPtest.git
+
+$ cd slowHTTPtest
+
+$ chmod +x *
+
+$ ./slowtest.sh
+```
+
 MAKE SURE YOU HAVE SLOWHTTPTEST INSTALLED ON YOUR TERMINAL OTHERWISE IF YOU ARE USING LINUX YOU CAN USE:
 ```
 $ sudo apt-get install slowhttptest
@@ -25,15 +36,7 @@ $ make
 
 $ sudo make install
 ```
-```
-$ git clone https://github.com/righnix/slowHTTPtest.git
 
-$ cd slowHTTPtest
-
-$ chmod +x *
-
-$ ./slowtest.sh
-```
 
 ## SlowHTTPTest: What it is and how it works
 
