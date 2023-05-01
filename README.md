@@ -6,13 +6,9 @@ SlowHTTPTest is an open-source stress testing tool used to detect vulnerabilitie
 
 The DoS attack with SlowHTTPTest focuses on a single server. The tool sends incomplete and slow HTTP requests to the server, which causes the server to wait for the requests to complete before responding. These incomplete requests are sent over multiple parallel connections, which exhaust the server's resources and may cause a service disruption.
 
-    ![DoS Attack with SlowHTTPTest](https://i.imgur.com/j41JszO.png)
-
 ## DDoS Attack with SlowHTTPTest
 
 The DDoS attack with SlowHTTPTest is similar to the DoS attack, but involves multiple servers sending incomplete and slow HTTP requests to the target. The tool is run on each attacking server and sends requests through multiple parallel connections. This type of attack is much harder to detect and prevent, as it originates from different locations and is difficult to distinguish between legitimate and malicious traffic.
-
-    ![DDoS Attack with SlowHTTPTest](https://i.imgur.com/vAtcB0p.png)
 
 ## How to prevent a SlowHTTPTest attack?
 
