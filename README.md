@@ -3,7 +3,7 @@
 $ git clone https://github.com/righnix/slowHTTPtest.git
 $ cd slowHTTPtest
 $ chmod +x *
-$ ./
+$ ./slowtest.sh
 ```
 
 # SlowHTTPTest: What it is and how it works
