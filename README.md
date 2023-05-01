@@ -1,14 +1,8 @@
-# INSTALLATION AND USE OF THE SCRIPT
+## INSTALLATION AND USE OF THE SCRIPT
 ```
-git clone 
-```
-```
-cd slowHTTPtest
-```
-```
-chmod +x *
-```
-```
+$ git clone 
+$ cd slowHTTPtest
+$ chmod +x *
 ./
 ```
 
