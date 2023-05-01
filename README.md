@@ -1,9 +1,9 @@
 ## INSTALLATION AND USE OF THE SCRIPT
 ```
-$ git clone 
+$ git clone https://github.com/righnix/slowHTTPtest.git
 $ cd slowHTTPtest
 $ chmod +x *
-./
+$ ./
 ```
 
 # SlowHTTPTest: What it is and how it works
